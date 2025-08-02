@@ -6,7 +6,7 @@ phases:
       nodejs: latest
   pre_build:
     commands:
-      - echo "Installing dependencies test"
+      - echo "Installing dependencies"
       - npm install
   build:
     commands:
